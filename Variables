@@ -1,0 +1,26 @@
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+using namespace std;\
+
+int main(int argc, char** argv) {
+	
+	int a =10;
+	int b = 20;
+	string nombre = "Hola Mundo";
+	bool SiNo = true;
+	double numero = 5.3;
+	char caracter = 'g';
+	
+	cout << "Hola C++"<< endl;
+	cout << endl;
+	cout << "a: " << a << endl;
+	cout << "b: " << b << endl;
+	cout << "nombre: " <<nombre << endl;
+	cout << "SiNO: "<< SiNo << endl;
+	cout << "numero:"<< numero << endl;
+	cout << "caracter: " << caracter << endl;
+	
+	return 0;
+}
